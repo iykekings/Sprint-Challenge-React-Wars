@@ -1,0 +1,51 @@
+.star-wars {
+  background: #0b0b0b9e;
+  padding: 2rem 5vw;
+  margin-top: 1rem;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+li {
+  border-left: white 3px solid;
+  margin-bottom: 10px;
+  padding: 5px 1rem;
+  background-color: #febe66;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btns {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+span {
+  background-color: antiquewhite;
+  padding: 0.3rem 1rem;
+  border-radius: 3px;
+  font-weight: bold;
+  display: flex;
+  cursor: pointer;
+}
+
+span.next {
+  margin-right: 10px;
+}
+span.next:before {
+  content: '<';
+  margin-right: 4px;
+}
+span.previous:after {
+  content: '>';
+  margin-left: 4px;
+}
