@@ -15,3 +15,23 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.star-wars {
+  background: #0b0b0b9e;
+  padding: 2rem 5vw;
+  margin-top: 1rem;
+}
+
+li {
+  border-left: white 3px solid;
+  margin-bottom: 10px;
+  padding: 5px 1rem;
+  background-color: #febe66;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
