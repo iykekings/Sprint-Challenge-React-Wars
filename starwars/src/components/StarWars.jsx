@@ -1,10 +1,12 @@
 import React from 'react';
 import Character from './Character';
+import Loader from './Loader/Loader';
 import './StarWars.css';
 
-const StarWars = ({ characters, getNext, getPrevious }) => {
+const StarWars = ({ characters, getNext, getPrevious, loading }) => {
   return (
     <div className="star-wars">
+      <Loader loading={loading} />
       <ul>
         {characters.map(character => (
           <Character
